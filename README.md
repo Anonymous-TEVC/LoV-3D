@@ -27,7 +27,7 @@ Data sources:
 | Dataset | Source | Access |
 |---------|--------|--------|
 | **ADNI** | [adni.loni.usc.edu](http://adni.loni.usc.edu/) | Requires application |
-| **MIRIAD** | [miriad.drc.ion.ucl.ac.uk](https://www.miriad.drc.ion.ucl.ac.uk/) | Requires application |
+| **MIRIAD** | [miriad.drc.ion.ucl.ac.uk](https://www.ucl.ac.uk/brain-sciences/ion/research/research-centres/dementia-research-centre/research-clinical-trials/minimal-interval-resonance-imaging-alzheimers-disease-miriad) | Requires application |
 | **AIBL** | [aibl.csiro.au](https://aibl.csiro.au/) | Requires application |
 
 For ADNI, you will also need `ADNIMERGE.csv` (clinical metadata) and FreeSurfer cross-sectional results.
