@@ -4,8 +4,6 @@ This paper has been submitted to **MICCAI 2026**. Model weights will be uploaded
 
 ---
 
-Longitudinal brain MRI is central to characterizing the progression of neurological diseases such as Alzheimer's disease, yet current deep-learning tools fragment this process: classifiers reduce a scan to a label, volumetric pipelines produce uninterpreted measurements, and vision-language models generate fluent but potentially hallucinated conclusions. LoV-3D is a training pipeline for 3D vision-language models which reads longitudinal T1-weighted brain MRI, produces a region-level anatomical assessment, conducts longitudinal comparison with the prior scan, and outputs a three-class diagnosis (CN vs. MCI vs. Dementia) along with a synthesized diagnostic summary. The stepped pipeline grounds the final diagnosis by enforcing label consistency, longitudinal coherence, and biological plausibility, so that potential hallucinations can be reduced. Technically, the training process introduces a clinically-weighted Verifier that scores candidate outputs against normative references derived from FreeSurfer volumetrics, driving Direct Preference Optimization without human annotation.
-
 ## Before You Start: Data Preprocessing
 
 **Strict data preprocessing is required before using this model.**
