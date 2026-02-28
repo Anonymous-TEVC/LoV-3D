@@ -1,0 +1,40 @@
+{
+  "description": "Field-level dropout rates based on real ADNI missing data analysis",
+  "source": "ADNIMERGE.csv (16,421 visits) + Stage1 dataset (4,997 samples)",
+  "note": "Used for field-level dropout in Stage3Dataset. Demographics/cognition/genetics only. Prior DX and region labels use separate perturbation/dropout mechanism.",
+  "raw_missing_rates": {
+    "_comment": "Actual missing rates from ADNIMERGE full table (16,421 rows)",
+    "age": 0.001,
+    "sex": 0.000,
+    "education": 0.000,
+    "mmse": 0.302,
+    "cdrsb": 0.285,
+    "apoe4": 0.022
+  },
+  "stage1_missing_rates": {
+    "_comment": "Missing rates in our FS-filtered stage1 dataset (4,997 samples)",
+    "age": 0.000,
+    "sex": 0.000,
+    "education": 0.000,
+    "mmse": 0.112,
+    "cdrsb": 0.120,
+    "apoe4": 0.036
+  },
+  "dropout_rates": {
+    "_comment": "Recommended field-level dropout probabilities. Based on ADNIMERGE rates with 5% floor for demographics robustness.",
+    "age": 0.05,
+    "sex": 0.05,
+    "education": 0.05,
+    "mmse": 0.30,
+    "cdrsb": 0.28,
+    "apoe4": 0.05
+  },
+  "replacement_templates": {
+    "age": "Not available",
+    "sex": "Not available",
+    "education": "Not available",
+    "mmse": "Not available",
+    "cdrsb": "Not available",
+    "apoe4": "Unknown"
+  }
+}
