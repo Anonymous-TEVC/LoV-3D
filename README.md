@@ -1,4 +1,4 @@
-# LoV-3D: Verifier-Guided Preference Optimization for Longitudinal 3D Brain MRI Analysis
+# LoV3D: Grounding Cognitive Prognosis Reasoning in Longitudinal 3D Brain MRI via Regional Volume Assessments
 
 This paper has been submitted to **MICCAI 2026**. Model weights will be uploaded to Hugging Face upon acceptance.
 
