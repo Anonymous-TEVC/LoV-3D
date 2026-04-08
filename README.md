@@ -81,6 +81,7 @@ lov3d/
 ## Method
 
 ![LoV-3D Architecture](assets/architecture.png)
+Note: All patient data shown in the figure above is entirely synthetic and does not correspond to any real individual. It is provided solely for illustrative purposes.
 
 ### Architecture
 
